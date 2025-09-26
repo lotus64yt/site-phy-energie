@@ -6,6 +6,9 @@
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
     "start": "next start",
+    "build:prod": "next build --turbopack",
+    "start:prod": "next start",
+    "prod": "npm run build:prod && npm run start:prod",
     "lint": "eslint"
   },
   "dependencies": {
