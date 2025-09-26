@@ -1,0 +1,28 @@
+User-agent: *
+Allow: /
+
+# Pages principales
+Allow: /
+Allow: /nucleaire
+Allow: /hydroelectrique
+Allow: /comparaison
+Allow: /contact
+Allow: /about
+Allow: /documentation
+Allow: /glossaire
+
+# Fichiers statiques
+Allow: /favicon.ico
+Allow: /*.svg$
+Allow: /*.png$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.gif$
+Allow: /*.webp$
+Allow: /_next/static/
+
+# Sitemap
+Sitemap: https://energies-france.fr/sitemap.xml
+
+# Fréquence de crawl (optionnel)
+Crawl-delay: 1
