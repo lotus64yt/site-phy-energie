@@ -49,7 +49,7 @@ export const nucleaireData = {
   rendement: {
     global: 33,
     details: {
-      thermodynamique: "~33% (cycle de Carnot limité par T°)",
+      thermodynamique: "~33%",
       pertes_thermiques: "~65% évacuées par condenseur",
       pertes_mecaniques: "~2%"
     }
